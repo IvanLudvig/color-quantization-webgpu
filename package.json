@@ -1,0 +1,66 @@
+{
+  "name": "image-palette-webgpu",
+  "description": "A tiny zero-dependency browser package that extracts dominant color or color palette from an image using WebGPU API with various algorithms",
+  "contributors" : [
+    {
+      "name" : "Ivan Ludvig",
+      "email" : "ivanludvigdev@gmail.com",
+      "url" : "https://github.com/IvanLudvig"
+    },
+    {
+      "name" : "Alexey Rodionov",
+      "email" : "fluorescent.hallucinogen@gmail.com",
+      "url" : "https://github.com/FluorescentHallucinogen"
+    }
+  ],
+  "version": "0.1.0",
+  "main": "./src/index.js",
+  "type": "module",
+  "module": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./wu": "./src/wu/index.js",
+    "./kmeans": "./src/kmeans/index.js",
+    "./celebi": "./src/wu/celebi/index.js"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IvanLudvig/color-quantization-webgpu"
+  },
+  "keywords": [
+    "webgpu",
+    "gpu",
+    "wgsl",
+    "shader",
+    "fast",
+    "image",
+    "photo",
+    "picture",
+    "dominant",
+    "primary",
+    "prominent",
+    "color",
+    "colors",
+    "colour",
+    "colours",
+    "palette",
+    "extract",
+    "quantize",
+    "celebi",
+    "wu",
+    "zero-dependency",
+    "zero-dependencies",
+    "tiny",
+    "es-module",
+    "esm",
+    "free",
+    "libre",
+    "open",
+    "open-source",
+    "opensource",
+    "floss",
+    "foss",
+    "oss"
+  ]
+}
