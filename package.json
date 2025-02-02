@@ -1,6 +1,6 @@
 {
   "name": "image-palette-webgpu",
-  "description": "A tiny zero-dependency package that extracts dominant color or color palette from an image using WebGPU API",
+  "description": "A tiny zero-dependency package that extracts dominant color or color palette from an image using WebGPU API with various algorithms",
   "contributors" : [
     {
       "name" : "Ivan Ludvig",
